@@ -1,6 +1,6 @@
 COVID-19 En Argentina
 
-# Introduccion
+# Introducción
 Lamentablemente el gobierno argentino no ofrece datos completos en tiempo real sobre la situación de la pandemia en nuestro país.
 
 Por eso, hace unos días me propuse generar un registro en csv con los casos día por día, provincia por provincia. Para esto, utilicé los reportes diarios emitidos por el Ministerio de Salud de la nación y los periódicos más importantes para cubrir las incosistencias o falta de información de los reportes.
