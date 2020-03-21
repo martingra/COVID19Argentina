@@ -28,6 +28,12 @@ Incluyo los archivos .py y ademas las Notebooks para poder trabajar rapidamente 
     Matplotlib
 	Pandas
 
+# Datos de Argentina
+
+La carpeta "data" contiene los datos de Argentina cargados manualmente.
+
+- time_series_19-covid-Confirmed.csv: Contiene los datos acumulados día por día, provincia por provincia.
+- time_series_19-covid-Confirmed-Day by day.csv: Contiene los datos de cada día (no acumulado) por provincia.
 
 # Nota 
   Los datos por región y por día de Argentina los cargué yo manualmente, leyendo los informes diarios del Ministerio de Salud y los diarios argentinos de cada fecha. Los datos pueden tener errores (muy probablemente) por lo que si podes corregirlos o verificarlos estarás haciendo un valorable aporte.
