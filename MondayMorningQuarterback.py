@@ -2,12 +2,11 @@ import os
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd 
-import seaborn as sns
+
+currentDirectory = os.getcwd()
 
 days_margin = 18
 
-currentDirectory = os.getcwd()
-  
 # Leemos el archivo csv con los casos
 confirmed_df = pd.read_csv(currentDirectory + "\\data_world\\time_series_19-covid-Confirmed.csv") 
 # deaths_df = pd.read_csv(currentDirectory + "\\data\\time_series_19-covid-Deaths.csv") 
@@ -34,7 +33,7 @@ comp.reset_index(drop=True, inplace=True)
 comp.plot.line(marker="o", linewidth=1, markersize=4)
 legend.append('Italia')
 
-plt.title('Cantidad de afectados COVID-19 Argentina vs Italia')
+plt.title('Diario del Lunes COVID-19 Argentina vs Italia')
 plt.legend(legend)
 
 plt.xlabel('Día')
@@ -56,7 +55,7 @@ comp.reset_index(drop=True, inplace=True)
 comp.plot.line(marker="o", linewidth=1, markersize=4)
 legend.append('España')
 
-plt.title('Cantidad de afectados COVID-19 Argentina vs España')
+plt.title('Diario del Lunes COVID-19 Argentina vs España')
 plt.legend(legend)
 
 plt.xlabel('Día')
