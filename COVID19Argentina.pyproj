@@ -1,0 +1,54 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>8c664f39-90de-483e-8bad-efa678e548c8</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>COVID19Argentina.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>COVID19Argentina</Name>
+    <RootNamespace>COVID19Argentina</RootNamespace>
+    <InterpreterId>CondaEnv|CondaEnv|COVID19Argentina</InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="COVID19Latinamerica.py" />
+    <Compile Include="COVID19World.py" />
+    <Compile Include="COVID19Argentina.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="CondaEnv|CondaEnv|COVID19Argentina" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="data\" />
+    <Folder Include="data_world\" />
+    <Folder Include="pdf\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="data_world\time_series_19-covid-Confirmed.csv" />
+    <Content Include="pdf\1.pdf" />
+    <Content Include="pdf\19-03-20-reporte-diario-covid-19.pdf" />
+    <Content Include="data\time_series_19-covid-Confirmed.csv" />
+    <Content Include="data\time_series_19-covid-ConfirmedSAMPLE.csv" />
+    <Content Include="data\time_series_19-covid-Deaths.csv" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
