@@ -16,9 +16,13 @@ Gracias!!!
 Incluyo los archivos .py y ademas las Notebooks para poder trabajar rapidamente y ver los resultados planteados directamente del navegador. Las notebooks son:
 
 - Argentina (Casos locales por día y por provincia): https://github.com/martingra/COVID19Argentina/blob/master/COVID19Argentina.ipynb
+- Argentina fallecimientos: https://github.com/martingra/COVID19Argentina/blob/master/COVID19ArgentinaDeaths.ipynb
 - Argentina vs mundo: https://github.com/martingra/COVID19Argentina/blob/master/COVID19ArgentinaWorld.ipynb
+- Agentina vs fallecimientos: https://github.com/martingra/COVID19Argentina/blob/master/COVID19ArgentinaWorldDeaths.ipynb
 - Argentina vs región: https://github.com/martingra/COVID19Argentina/blob/master/COVID19ArgentinaLatinamerica.ipynb  
+- Argentina vs region fallecimientos: https://github.com/martingra/COVID19Argentina/blob/master/COVID19ArgentinaLatinamericaDeaths.ipynb
 - Argentina diario del lunes (comparación con Italia y España): https://github.com/martingra/COVID19Argentina/blob/master/COVID19ArgentinaMondayMorningQuarterback.ipynb
+- Argentina diario del lunes fallecimientos: https://github.com/martingra/COVID19Argentina/blob/master/COVID19ArgentinaMondayMorningQuarterbackDeaths.ipynb
 
 # Dependencias
 
