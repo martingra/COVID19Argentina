@@ -25,6 +25,8 @@ Incluyo los archivos .py y ademas las Notebooks para poder trabajar rapidamente 
 - Argentina diario del lunes fallecimientos: https://github.com/martingra/COVID19Argentina/blob/master/COVID19ArgentinaMondayMorningQuarterbackDeaths.ipynb
 - Top países del mundo: https://github.com/martingra/COVID19Argentina/blob/master/COVID19ArgentinaTopWorld.ipynb
 - Top países del mundo fallecimientos: https://github.com/martingra/COVID19Argentina/blob/master/COVID19ArgentinaTopWorldDeaths.ipynb
+- Resumen mundial casos: https://github.com/martingra/COVID19Argentina/blob/master/COVID19Summary.py
+- Resumen mundial casos (fallecimientos): https://github.com/martingra/COVID19Argentina/blob/master/COVID19SummaryDeaths.ipynb
 
 # Dependencias
 
