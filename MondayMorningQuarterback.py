@@ -39,6 +39,10 @@ plt.legend(legend)
 plt.xlabel('Día')
 plt.ylabel('Cantidad de afectados')
 
+plt.yticks(np.arange(0, comp.max(), comp.max()/20))
+
+plt.grid(True)
+
 plt.show()
 
 

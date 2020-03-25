@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>8c664f39-90de-483e-8bad-efa678e548c8</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>COVID19Argentina.py</StartupFile>
+    <StartupFile>COVID19Summary.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,6 +23,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="COVID19Latinamerica.py" />
+    <Compile Include="COVID19Summary.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="module1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MondayMorningQuarterback.py" />
     <Compile Include="COVID19World.py" />
     <Compile Include="COVID19Argentina.py" />
   </ItemGroup>
